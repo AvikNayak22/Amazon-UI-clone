@@ -1,6 +1,6 @@
 # Amazon Clone
 
-This project is an Amazon clone developed using React.js, Redux, Tailwind CSS, and React Router. It provides a range of e-commerce functionalities, including product listing, product categories, search functionality, and a shopping cart with features like setting quantity, adding to cart, removing from the cart, incrementing/decrementing quantities, and calculating the total amount.
+An Amazon-inspired React web app with product listing, category filters, search, and a functional shopping cart for a realistic online shopping experience.
 
 ## Table of Contents
 - [Features](#features)
