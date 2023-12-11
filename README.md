@@ -1,6 +1,6 @@
-# Amazon Clone
+# Redux Shopping Cart
 
-An Amazon-inspired React web app with product listing, category filters, search, and a functional shopping cart for a realistic online shopping experience.
+An Amazon-inspired, functional shopping cart application.
 
 ## Table of Contents
 - [Features](#features)
