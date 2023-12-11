@@ -2,6 +2,9 @@
 
 An Amazon-inspired, functional shopping cart application.
 
+
+![Screenshot 2023-12-12 011010](https://github.com/AvikNayak22/Redux-Shopping-Cart/assets/110925067/2e2f4251-9ac1-4d1b-9614-311b5a62ef39)
+
 ## Table of Contents
 - [Features](#features)
 - [Demo](#demo)
