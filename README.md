@@ -1,4 +1,4 @@
-# Redux Shopping Cart
+# E-commerce application with redux
 
 An Amazon-inspired, functional shopping cart application.
 
