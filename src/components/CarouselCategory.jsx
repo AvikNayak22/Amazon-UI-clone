@@ -1,12 +1,18 @@
+// Import necessary components and functions from external libraries and modules
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { useNavigate, createSearchParams } from "react-router-dom";
 
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 
+// Define the CarouselCategory component
 const CarouselCategory = () => {
+  // Access the navigate function from react-router-dom for navigation
   const navigate = useNavigate();
+
+  // Function to navigate to the search page with specified category
   const searchCategory = (category) => {
     navigate({
       pathname: "search",
@@ -17,15 +23,18 @@ const CarouselCategory = () => {
     });
   };
 
+  // Render the CarouselCategory component
   return (
     <div className="bg-white m-3 p-4">
       <div className="text-2xl font-semibold mb-2">Shop by Category</div>
+      {/* Swiper component for category carousel */}
       <Swiper
         slidesPerView={5}
         spaceBetween={10}
         navigation={true}
         modules={[Navigation]}
       >
+        {/* Individual slides for each category with a clickable image */}
         <SwiperSlide
           onClick={() => searchCategory("Deals")}
           className="cursor-pointer"
@@ -67,4 +76,6 @@ const CarouselCategory = () => {
   );
 };
 
+// Export the CarouselCategory component for use in other parts of the application
 export default CarouselCategory;
+
