@@ -1,4 +1,4 @@
-# E-commerce application with redux
+# Amazon UI clone
 
 An Amazon-inspired, functional shopping cart application.
 
